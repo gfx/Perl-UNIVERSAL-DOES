@@ -1,0 +1,14 @@
+.*
+!.gitignore
+!.shipit
+*.o
+*.obj
+*.bs
+Makefile*
+!Makefile.PL
+*blib
+META.yml
+inc/
+MANIFEST
+*.out
+UNIVERSAL-DOES-*
