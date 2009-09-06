@@ -78,7 +78,7 @@ __END__
 
 =head1 NAME
 
-UNIVERSAL::DOES - Provides does() function, and DOES() method for older perls
+UNIVERSAL::DOES - Provides UNIVERSAL::DOES() method for older perls
 
 =head1 VERSION
 
@@ -108,7 +108,7 @@ This document describes UNIVERSAL::DOES version 0.002.
 C<UNIVERSAL::DOES> provides a C<UNIVERSAL::DOES()> method for
 compatibility with perl 5.10.x.
 
-This module also provides C<does()> function that checks something
+This module also provides a C<does()> function that checks something
 does some roles, suggested in L<perltodo>.
 
 =head1 FUNCTIONS
