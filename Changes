@@ -1,6 +1,6 @@
 Revision history for Perl extension UNIVERSAL::DOES
 
-0.002 
+0.002 Sun Sep  6 11:12:50 2009
 	- No code changes
 	- Fix documentation
 	- Fix repository section in META.yml
