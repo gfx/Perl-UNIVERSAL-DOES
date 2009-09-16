@@ -2,7 +2,7 @@ package UNIVERSAL::DOES;
 
 use 5.005_03;
 
-$VERSION = '0.002';
+$VERSION = '0.003';
 
 use Exporter;
 @ISA       = qw(Exporter);
