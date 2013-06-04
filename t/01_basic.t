@@ -93,8 +93,12 @@ ok !does($bar, 'CODE');
 # for non-object
 
 ok !does(undef, 'UNIVERSAL');
-ok !does(42,    'UNIVERSAL');
-ok !does('!',   'UNIVERSAL');
+
+SKIP: {
+    skip "changed on 5.18", 2 if $] > 5.016;
+    ok !does(42,    'UNIVERSAL');
+    ok !does('!',   'UNIVERSAL');
+}
 
 ok  does([], 'ARRAY');
 ok !does([], 'HASH');
