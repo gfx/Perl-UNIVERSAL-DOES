@@ -4,7 +4,7 @@ UNIVERSAL::DOES - Provides UNIVERSAL::DOES() method for older perls
 
 # VERSION
 
-This document describes UNIVERSAL::DOES version 0.002.
+This document describes UNIVERSAL::DOES version 0.005.
 
 # SYNOPSIS
 

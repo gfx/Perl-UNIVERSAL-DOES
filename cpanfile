@@ -1,4 +1,4 @@
-requires 'perl', '5.00503';
+requires 'perl', '5.8.1';
 
 on build => sub {
     requires 'ExtUtils::MakeMaker', '6.36';
