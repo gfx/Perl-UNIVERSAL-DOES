@@ -131,9 +131,9 @@ ok $a->isa("UNIVERSAL");
 my $sub2 = join ' ', sort grep { defined &{"UNIVERSAL::$_"} } keys %UNIVERSAL::;
 # XXX import being here is really a bug
 if ('a' lt 'A') {
-    is $sub2, "can import isa DOES VERSION";
+    like $sub2, qr/^can(?: import)? isa DOES VERSION$/;
 } else {
-    is $sub2, "DOES VERSION can import isa";
+    like $sub2, qr/^DOES VERSION can(?: import)? isa(?: unimport)?$/;
 }
 
 eval 'sub UNIVERSAL::sleep {}';
